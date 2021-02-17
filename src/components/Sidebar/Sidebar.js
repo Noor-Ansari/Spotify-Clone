@@ -7,7 +7,7 @@ import ViewColumnIcon from '@material-ui/icons/ViewColumn';
 import { useDataLayerValue } from "E:/React/spotify-clone/src/DataLayer.js";
 
 function Sidebar() {
-    const [{playlists}, dispatch] = useDataLayerValue()
+    const [{playlists}] = useDataLayerValue()
     return (
         <div className="sidebar">
             <img

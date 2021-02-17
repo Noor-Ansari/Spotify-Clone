@@ -1,15 +1,12 @@
 export const initialState = {
     user : null,
-    token : "BQAnuwSS3QVU2nK-9Lit7Yhv3PjJqw8utPItP078OzrocL1BWNivi3NTL-J3BGx5xZKpl-LvxK1nrFb7wAMAa381GmOs3UF4-H87YlNWOVC8UyI-lSynhu7eAAbvJ_TqXgtfl3vT7yXfUWLdX0fOC3hcZ8eAOEEBzQbUZr8aGOrQsYj6",
-    playlists : [],
+    token : null,
+    playlists : null,
     playing : false,
-    item : null,
     discover_weekly: null,
 }
 
 export const reducer = (state, action ) => {
-    console.log(action)
-
     switch (action.type){
         case "SET_USER":
             return {

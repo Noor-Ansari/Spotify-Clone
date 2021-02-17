@@ -1,3 +1,7 @@
 .player-body{
     display: flex;
+} 
+
+.sidebar-container{
+    flex: 0.2;
 }
